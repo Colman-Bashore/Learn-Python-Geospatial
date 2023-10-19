@@ -2,7 +2,10 @@
 # Original by Becky Vandewalle based off of prior work by Dandong Yin
 # Available at https://cybergisxhub.cigi.illinois.edu/notebooks/
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+from sysconfig import get_python_version
+
+
+#get_python_version().run_line_magic('matplotlib', 'inline')
 import os
 import geopandas as gpd
 import pandas as pd
