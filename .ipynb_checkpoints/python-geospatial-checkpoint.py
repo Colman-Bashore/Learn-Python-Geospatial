@@ -3,6 +3,7 @@
 # Available at https://cybergisxhub.cigi.illinois.edu/notebooks/
 
 get_ipython().run_line_magic('matplotlib', 'inline')
+
 import os
 import geopandas as gpd
 import pandas as pd
